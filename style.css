@@ -1,0 +1,75 @@
+hr{
+  background: url(img/hr-img.png) repeat;
+  height:10px;
+  border:none; 
+}
+
+
+h1{
+  font-family: 'Yellowtail', cursive;
+}
+
+main{
+  font-family: 'Oswald';
+}
+
+main h1{
+  font-weight: 700;
+}
+
+article p{
+  font-family: Verdana;
+}
+
+#recipe{
+  font-family: 'Grandstander';
+  display:flex;
+  background: url(img/list-bg.png);
+}
+
+#bottompx{
+  background: url(img/hr-img.png) repeat;
+  height:10px;
+  border:none; 
+}
+
+#footer-hr {
+  background-image: url(lab-assets/small-logo.png);
+  background-repeat: no-repeat;
+}
+#footer-hr {
+  background: url(lab-assets/small-logo.png) no-repeat top center;
+  background-size: contain;
+  display: block;
+  height: 18px;
+  border: 0;
+  position: relative;
+}
+
+#footer-hr:before,
+#footer-hr:after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: #D7D7D7;
+  height: 2px;
+  top: 8px;
+}
+#footer-hr:before {
+  left: 0;
+  right: 50%;
+  margin-right: 10px;
+}
+#footer-hr:after {
+  right: 0;
+  left: 50%;
+  margin-left: 10px;
+}
+
+#vs{
+  font-weight: 600;
+}
+
+button{
+  background-color: #E76f51;
+}
