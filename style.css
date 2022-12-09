@@ -1,3 +1,27 @@
+body {
+  margin:50px 100px;
+  max-width:1000px;
+  
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  width:100%;
+  text-align:right;
+}
+
+nav li {
+  display:inline;
+
+}
+
+section img {
+  width:100%;
+}
+
 hr{
   background: url(img/hr-img.png) repeat;
   height:10px;
@@ -7,6 +31,7 @@ hr{
 
 h1{
   font-family: 'Yellowtail', cursive;
+  padding:0;
 }
 
 main{
@@ -15,6 +40,7 @@ main{
 
 main h1{
   font-weight: 700;
+  font-family: 'Oswald';
 }
 
 article p{
@@ -38,7 +64,7 @@ article p{
   background-repeat: no-repeat;
 }
 #footer-hr {
-  background: url(lab-assets/small-logo.png) no-repeat top center;
+  background: url(img/small-logo.png) no-repeat top center;
   background-size: contain;
   display: block;
   height: 18px;
@@ -72,4 +98,12 @@ article p{
 
 button{
   background-color: #E76f51;
+}
+
+footer {
+  display:flex;
+}
+
+#copyright {
+  text-align:center;
 }
