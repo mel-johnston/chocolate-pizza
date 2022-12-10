@@ -1,68 +1,147 @@
 body {
-  margin:50px 100px;
-  max-width:1000px;
-  
+  margin: 40px auto;
+  width: 700px;
+
 }
 
 nav {
   display: flex;
 }
 
+#siteName {
+  width: 100%;
+  padding: 5px;
+}
+
+#siteName h1 {
+  font-family: 'Yellowtail', cursive;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#siteName p {
+  font-size: 10px;
+  color: grey
+}
+
 nav ul {
-  width:100%;
-  text-align:right;
+  width: 100%;
+  text-align: right;
 }
 
 nav li {
-  display:inline;
+  display: inline;
 
 }
 
 section img {
-  width:100%;
+  margin-top: 5px;
+  width: 100%;
 }
 
-hr{
+hr {
   background: url(img/hr-img.png) repeat;
-  height:10px;
-  border:none; 
+  height: 10px;
+  border: none;
 }
 
 
-h1{
-  font-family: 'Yellowtail', cursive;
-  padding:0;
+
+
+#title {
+  display: inline-block;
+  width: 100%;
 }
 
-main{
+#print {
+  font-size: 12px;
+  font-family: 'Oswald"';
+  color: grey;
+  margin-right: 5px;
+}
+
+#print ul {
+  text-align: right;
+}
+
+#print li {
+  list-style: none;
+  display: inline;
+
+}
+main {
+  margin: 20px 0;
   font-family: 'Oswald';
 }
 
-main h1{
+main h1 {
   font-weight: 700;
+  font-size: 38px;
   font-family: 'Oswald';
 }
 
-article p{
+
+article {
+  padding: 10px 0;
+}
+
+article p {
   font-family: Verdana;
+  text-indent: 20px;
 }
 
-#recipe{
+#recipe {
   font-family: 'Grandstander';
-  display:flex;
+  display: flex;
+  justify-content: space-between;
   background: url(img/list-bg.png);
+  padding: 25px 45px;
+  margin-bottom: 25px;
 }
 
-#bottompx{
+#bottompx {
   background: url(img/hr-img.png) repeat;
-  height:10px;
-  border:none; 
+  height: 10px;
+  border: none;
 }
+
+
+
+#vs {
+  font-weight: 600;
+}
+
+button {
+  background-color: #E76f51;
+  border: none;
+  color: white;
+  margin: 15px;
+}
+
+footer {
+  display: flex;
+  padding: 10px;
+  
+}
+
+footer p{
+  padding: 5px;
+}
+
+#copyright {
+  text-align: center;
+  font-size: 12px;
+  color: grey;
+  line-height: 1.5;
+  padding: 15px;
+}
+
 
 #footer-hr {
-  background-image: url(lab-assets/small-logo.png);
+  background-image: url(img/small-logo.png);
   background-repeat: no-repeat;
 }
+
 #footer-hr {
   background: url(img/small-logo.png) no-repeat top center;
   background-size: contain;
@@ -81,29 +160,15 @@ article p{
   height: 2px;
   top: 8px;
 }
+
 #footer-hr:before {
   left: 0;
   right: 50%;
   margin-right: 10px;
 }
+
 #footer-hr:after {
   right: 0;
   left: 50%;
   margin-left: 10px;
-}
-
-#vs{
-  font-weight: 600;
-}
-
-button{
-  background-color: #E76f51;
-}
-
-footer {
-  display:flex;
-}
-
-#copyright {
-  text-align:center;
 }
